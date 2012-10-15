@@ -13,6 +13,11 @@
 //Subclass should use this delegate to pass events & data back to parent class
 @property (nonatomic, unsafe_unretained) id delegate;
 
+//Minimum UI, intended for demo
+@property (nonatomic, strong) UIImageView * backgroundImageView;
+@property (nonatomic, strong) UILabel * titleLabel;
+@property (nonatomic, strong) UIButton *rightButton;
+
 - (void)reset;
 - (void)configureWithTag:(NSInteger)newTag;
 

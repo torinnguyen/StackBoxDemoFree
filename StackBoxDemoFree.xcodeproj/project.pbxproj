@@ -33,7 +33,6 @@
 		42924A61162B0DCB009C05E1 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42924A54162B0DCB009C05E1 /* background.jpg */; };
 		42924A62162B0DCB009C05E1 /* c.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42924A55162B0DCB009C05E1 /* c.jpg */; };
 		42924A63162B0DCB009C05E1 /* d.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42924A56162B0DCB009C05E1 /* d.jpg */; };
-		42924A64162B0DCB009C05E1 /* dummy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42924A57162B0DCB009C05E1 /* dummy.jpg */; };
 		42924A65162B0DCB009C05E1 /* e.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42924A58162B0DCB009C05E1 /* e.jpg */; };
 		42924A66162B0DCB009C05E1 /* f.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42924A59162B0DCB009C05E1 /* f.jpg */; };
 		42924A67162B0DCB009C05E1 /* g.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42924A5A162B0DCB009C05E1 /* g.jpg */; };
@@ -83,7 +82,6 @@
 		42924A54162B0DCB009C05E1 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		42924A55162B0DCB009C05E1 /* c.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c.jpg; sourceTree = "<group>"; };
 		42924A56162B0DCB009C05E1 /* d.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d.jpg; sourceTree = "<group>"; };
-		42924A57162B0DCB009C05E1 /* dummy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dummy.jpg; sourceTree = "<group>"; };
 		42924A58162B0DCB009C05E1 /* e.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = e.jpg; sourceTree = "<group>"; };
 		42924A59162B0DCB009C05E1 /* f.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = f.jpg; sourceTree = "<group>"; };
 		42924A5A162B0DCB009C05E1 /* g.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = g.jpg; sourceTree = "<group>"; };
@@ -161,7 +159,6 @@
 				42924A54162B0DCB009C05E1 /* background.jpg */,
 				42924A55162B0DCB009C05E1 /* c.jpg */,
 				42924A56162B0DCB009C05E1 /* d.jpg */,
-				42924A57162B0DCB009C05E1 /* dummy.jpg */,
 				42924A58162B0DCB009C05E1 /* e.jpg */,
 				42924A59162B0DCB009C05E1 /* f.jpg */,
 				42924A5A162B0DCB009C05E1 /* g.jpg */,
@@ -325,7 +322,6 @@
 				42924A61162B0DCB009C05E1 /* background.jpg in Resources */,
 				42924A62162B0DCB009C05E1 /* c.jpg in Resources */,
 				42924A63162B0DCB009C05E1 /* d.jpg in Resources */,
-				42924A64162B0DCB009C05E1 /* dummy.jpg in Resources */,
 				42924A65162B0DCB009C05E1 /* e.jpg in Resources */,
 				42924A66162B0DCB009C05E1 /* f.jpg in Resources */,
 				42924A67162B0DCB009C05E1 /* g.jpg in Resources */,

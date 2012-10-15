@@ -18,4 +18,6 @@
 - (void)showSummaryMode:(CGFloat)duration;
 - (void)showExtendedMode:(CGFloat)duration delay:(CGFloat)delay;
 
+- (void)updateTransformWithM34:(CGFloat)m34 scale:(CGFloat)scale angle:(CGFloat)angle;
+
 @end
