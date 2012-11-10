@@ -40,6 +40,7 @@
 		42924A69162B0DCB009C05E1 /* i.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42924A5C162B0DCB009C05E1 /* i.jpg */; };
 		42924A6A162B0DCB009C05E1 /* j.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42924A5D162B0DCB009C05E1 /* j.jpg */; };
 		42924A6B162B0DCB009C05E1 /* name_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 42924A5E162B0DCB009C05E1 /* name_list.json */; };
+		42B113B7164E5CEF0027E62A /* libStackBoxStatic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B113B6164E5CEF0027E62A /* libStackBoxStatic.a */; };
 		42F60C32162721B900C8E012 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F60C31162721B900C8E012 /* UIKit.framework */; };
 		42F60C34162721B900C8E012 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F60C33162721B900C8E012 /* Foundation.framework */; };
 		42F60C36162721B900C8E012 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F60C35162721B900C8E012 /* CoreGraphics.framework */; };
@@ -89,6 +90,7 @@
 		42924A5C162B0DCB009C05E1 /* i.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = i.jpg; sourceTree = "<group>"; };
 		42924A5D162B0DCB009C05E1 /* j.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = j.jpg; sourceTree = "<group>"; };
 		42924A5E162B0DCB009C05E1 /* name_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = name_list.json; sourceTree = "<group>"; };
+		42B113B6164E5CEF0027E62A /* libStackBoxStatic.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libStackBoxStatic.a; sourceTree = "<group>"; };
 		42F60C2D162721B900C8E012 /* StackBoxDemoFree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackBoxDemoFree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42F60C31162721B900C8E012 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		42F60C33162721B900C8E012 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -114,6 +116,7 @@
 				42F60C32162721B900C8E012 /* UIKit.framework in Frameworks */,
 				42F60C34162721B900C8E012 /* Foundation.framework in Frameworks */,
 				42F60C36162721B900C8E012 /* CoreGraphics.framework in Frameworks */,
+				42B113B7164E5CEF0027E62A /* libStackBoxStatic.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +236,7 @@
 		42F60C541627238100C8E012 /* StackBox */ = {
 			isa = PBXGroup;
 			children = (
+				42B113B6164E5CEF0027E62A /* libStackBoxStatic.a */,
 				4270C76D162926D60083B870 /* stackbox_bottom.png */,
 				4270C76E162926D60083B870 /* stackbox_top.png */,
 				423BDC4616295691008C0754 /* stackbox_bottom@2x.png */,
@@ -416,8 +420,10 @@
 				GCC_PREFIX_HEADER = "StackBoxDemo/StackBoxDemoFree-Prefix.pch";
 				INFOPLIST_FILE = "StackBoxDemo/StackBoxDemoFree-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				"OTHER_LDFLAGS[sdk=iphoneos*]" = "\"$(SRCROOT)/StackBox/Debug-iphoneos/libStackBoxStatic.a\"";
-				"OTHER_LDFLAGS[sdk=iphonesimulator*]" = "\"$(SRCROOT)/StackBox/Debug-iphonesimulator/libStackBoxStatic.a\"";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/StackBox\"",
+				);
 				PRODUCT_NAME = StackBoxDemoFree;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -431,8 +437,10 @@
 				GCC_PREFIX_HEADER = "StackBoxDemo/StackBoxDemoFree-Prefix.pch";
 				INFOPLIST_FILE = "StackBoxDemo/StackBoxDemoFree-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				"OTHER_LDFLAGS[sdk=iphoneos*]" = "\"$(SRCROOT)/StackBox/Debug-iphoneos/libStackBoxStatic.a\"";
-				"OTHER_LDFLAGS[sdk=iphonesimulator*]" = "\"$(SRCROOT)/StackBox/Debug-iphonesimulator/libStackBoxStatic.a\"";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/StackBox\"",
+				);
 				PRODUCT_NAME = StackBoxDemoFree;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
