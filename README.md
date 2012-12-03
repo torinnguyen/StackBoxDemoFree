@@ -1,7 +1,8 @@
 StackBoxDemoFree
 ================
 Free-to-try version of commercial StackBox library for iOS.
-For more information, visit http://torinnguyen.com/components/StackBox
+
+For more information, please visit http://www.binpress.com/c/1164/11778
 
 Demo limitations:
  - DataSource cannot be customized, dummy demo content only
