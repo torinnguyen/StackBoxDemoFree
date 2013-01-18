@@ -416,6 +416,7 @@
 		42F60C52162721B900C8E012 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = armv7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StackBoxDemo/StackBoxDemoFree-Prefix.pch";
 				INFOPLIST_FILE = "StackBoxDemo/StackBoxDemoFree-Info.plist";
@@ -433,6 +434,7 @@
 		42F60C53162721B900C8E012 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = armv7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StackBoxDemo/StackBoxDemoFree-Prefix.pch";
 				INFOPLIST_FILE = "StackBoxDemo/StackBoxDemoFree-Info.plist";
